@@ -47,17 +47,17 @@ graph TB
         AS[Agent State]
     end
     
+    subgraph "🧠 AI Services"
+        W[Whisper STT]
+        G[GPT-4o Conversation]
+        T[TTS Speech Synthesis]
+    end
+    
     subgraph "🎵 Audio Pipeline"
         BH[BlackHole Audio Router]
         AC_A[Audio Capture]
         AP[Audio Playback]
         VAD[Voice Activity Detection]
-    end
-    
-    subgraph "🧠 AI Services"
-        W[Whisper STT]
-        G[GPT-4o Conversation]
-        T[TTS Speech Synthesis]
     end
     
     subgraph "🌐 Browser Automation"
@@ -83,12 +83,20 @@ graph TB
     PW --> MC
     MC --> GM
     
-    style GM fill:#e1f5fe
-    style AC fill:#f3e5f5
-    style W fill:#e8f5e8
-    style G fill:#fff3e0
-    style T fill:#fce4ec
-    style BH fill:#f1f8e9
+    style GM fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
+    style AC fill:#9C27B0,stroke:#6A1B9A,stroke-width:2px,color:#fff
+    style CM fill:#9C27B0,stroke:#6A1B9A,stroke-width:2px,color:#fff
+    style AS fill:#9C27B0,stroke:#6A1B9A,stroke-width:2px,color:#fff
+    style W fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
+    style G fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
+    style T fill:#E91E63,stroke:#AD1457,stroke-width:2px,color:#fff
+    style BH fill:#8BC34A,stroke:#558B2F,stroke-width:2px,color:#fff
+    style AC_A fill:#8BC34A,stroke:#558B2F,stroke-width:2px,color:#fff
+    style AP fill:#8BC34A,stroke:#558B2F,stroke-width:2px,color:#fff
+    style VAD fill:#8BC34A,stroke:#558B2F,stroke-width:2px,color:#fff
+    style PW fill:#607D8B,stroke:#37474F,stroke-width:2px,color:#fff
+    style CP fill:#607D8B,stroke:#37474F,stroke-width:2px,color:#fff
+    style MC fill:#607D8B,stroke:#37474F,stroke-width:2px,color:#fff
 ```
 
 ### Low-Level Design (LLD)
@@ -138,12 +146,21 @@ graph TB
     MC --> AVI
     MC --> AVO
     
-    style MI fill:#e3f2fd
-    style BHI fill:#e8f5e8
-    style WC fill:#fff3e0
-    style GC fill:#fce4ec
-    style TC fill:#f3e5f5
-    style AP fill:#e1f5fe
+    style MI fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
+    style BHI fill:#8BC34A,stroke:#558B2F,stroke-width:2px,color:#fff
+    style AC fill:#8BC34A,stroke:#558B2F,stroke-width:2px,color:#fff
+    style VAD fill:#8BC34A,stroke:#558B2F,stroke-width:2px,color:#fff
+    style WC fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
+    style GC fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
+    style TC fill:#E91E63,stroke:#AD1457,stroke-width:2px,color:#fff
+    style CM fill:#9C27B0,stroke:#6A1B9A,stroke-width:2px,color:#fff
+    style AP fill:#8BC34A,stroke:#558B2F,stroke-width:2px,color:#fff
+    style BHO fill:#8BC34A,stroke:#558B2F,stroke-width:2px,color:#fff
+    style MO fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
+    style GA fill:#607D8B,stroke:#37474F,stroke-width:2px,color:#fff
+    style MC fill:#607D8B,stroke:#37474F,stroke-width:2px,color:#fff
+    style AVI fill:#607D8B,stroke:#37474F,stroke-width:2px,color:#fff
+    style AVO fill:#607D8B,stroke:#37474F,stroke-width:2px,color:#fff
 ```
 
 ### Audio Processing Pipeline
