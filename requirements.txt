@@ -1,0 +1,27 @@
+# Core dependencies
+playwright>=1.40.0
+sounddevice>=0.4.6
+numpy>=1.24.0
+python-dotenv>=1.0.0
+
+# Audio processing
+scipy>=1.11.0
+librosa>=0.10.0
+
+# Voice Activity Detection
+webrtcvad>=2.0.10
+
+# Azure OpenAI for AI integration
+openai>=1.45.0
+
+# Additional utilities
+pydub>=0.25.1
+wave
+
+# Async support
+asyncio-mqtt>=0.15.0 (optional)
+
+# Development dependencies (optional)
+pytest>=7.0.0
+black>=23.0.0
+flake8>=6.0.0 

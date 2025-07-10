@@ -1,0 +1,179 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Audio recordings
+recordings/
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.flac
+*.ogg
+
+# Chrome profiles
+chrome_profile/
+chrome_profiles/
+*.crx
+*.pem
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# Task files
+tasks/
+*.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Browser automation
+playwright-report/
+test-results/
+
+# Audio processing temp files
+temp_audio/
+tmp_audio/
+*.tmp
+
+# Profile data
+profile_data/
+user_data/
+
+# Screenshots
+screenshots/
+*.png
+*.jpg
+*.jpeg
+
+# Video files
+*.mp4
+*.avi
+*.mov
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# AI model files
+models/
+*.model
+*.pkl
+*.pickle
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp

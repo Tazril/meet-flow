@@ -1,0 +1,67 @@
+# OpenAI API Configuration
+OPENAI_API_KEY=
+
+# Google Meet Configuration  
+GMEET_URL=https://meet.google.com/abc-xyz-lmo
+
+# Agent Configuration
+AGENT_NAME=AI Assistant
+AGENT_ROLE=assistant  # Options: note_taker, assistant, participant, silent_observer
+
+# Audio Configuration
+SAMPLE_RATE=16000
+BUFFER_SIZE=1024
+# VAD_AGGRESSIVENESS=1
+
+# Behavior Configuration
+#  Seconds to wait before responding
+RESPONSE_DELAY=1.0
+# Seconds of silence before processing audio
+MAX_SILENCE_DURATION=3.0
+ENABLE_KEYWORD_TRIGGERS=true
+KEYWORD_TRIGGERS=AI,assistant,hey,question 
+
+
+CHROME_PROFILE_PATH=/Users/tazrilparveezali/Library/Application Support/Google/Chrome/Default  # Path to Chrome profile directory
+USE_CHROME_PROFILE=true  # Use persistent Chrome profile for login
+# CHROME_EXECUTABLE_PATH=  # Optional: path to Chrome executable
+
+# 1. Add GPT Azure OpenAI Configuration (add these new lines)
+GPT_ENDPOINT=
+GPT_API_KEY=
+GPT_API_VERSION=
+
+
+# Whisper Configuration (your first API key)
+WHISPER_ENDPOINT=
+WHISPER_API_KEY=
+WHISPER_API_VERSION=2024-06-01
+WHISPER_DEPLOYMENT_NAME=whisper
+
+# TTS Configuration (your second API key)
+TTS_ENDPOINT=
+TTS_API_KEY=
+TTS_API_VERSION=2025-03-01-preview
+TTS_MODEL=gpt-4o-mini-tts
+
+# Whisper Settings
+WHISPER_LANGUAGE=en
+WHISPER_TEMPERATURE=0.0
+
+# GPT Settings
+GPT_MAX_TOKENS=1000
+GPT_TEMPERATURE=0.7
+
+# TTS Settings
+TTS_VOICE=alloy
+TTS_SPEED=1.0
+TTS_FORMAT=mp3
+
+# Agent Behavior
+AGENT_NAME=AI Assistant
+RESPONSE_DELAY=0.5
+MAX_CONVERSATION_HISTORY=50
+CONVERSATION_TIMEOUT=300.0
+
+
+KEEP_MICROPHONE_ON=true
